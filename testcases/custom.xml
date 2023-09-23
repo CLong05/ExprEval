@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- Simple test cases for EvalExpr -->
+<test-case-definitions>
+
+<test-case>
+	<id>C001</id>
+	<description>Expression with relational and logical operations.</description>
+	<input><![CDATA[ (1 <> 2)&(2.25E+2=2.25E2)? 1:0 ]]></input>
+	<output>1</output>
+</test-case>
+
+<test-case>
+	<id>C002</id>
+	<description>Expression with relational and logical operations.</description>
+	<input><![CDATA[ (!(4>=4))|(!(-4<=-4))? 1:0 ]]></input>
+	<output>0</output>
+</test-case>
+
+<test-case>
+	<id>E001</id>
+	<description>IllegalSymbolException</description>
+	<input><![CDATA[ ((2 + 3) # ({3 @ 1} + 1)]]></input>
+	<exception>IllegalSymbolException</exception>
+</test-case>
+
+
+<test-case>
+	<id>E002</id>
+	<description>Empty Expression Exception.</description>
+	<input>                                                </input>
+	<exception>EmptyExpressionException</exception>
+</test-case>
+
+<test-case>
+	<id>E003</id>
+	<description>Illegal Identifier Exception</description>
+	<input>s*d/d-a+cos(s,c)</input>
+	<exception>IllegalIdentifierException</exception>
+</test-case>
+
+</test-case-definitions>
