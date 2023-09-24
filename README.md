@@ -24,7 +24,7 @@
 
 ---
 
-This is the experimental project 4 ExprEval for the Compiling principle course of Sun Yat-Sen University in the spring semester of 2022.
+This is the experimental project 4 ExprEval for the Compiling principle course of Sun Yat-sen University in the spring semester of 2022.
 
 Design and implement a practical working calculator ExpreVal. Input expressions support Boolean-type constants, numerical type constants (including scientific notation), various arithmetic operations, relational operations, logical operations, and predefined functions.
 
