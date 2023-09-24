@@ -1,6 +1,6 @@
 # 基于表达式的计算器   ExprEval
 
-本仓库内为2022年春季学期中山大学计算机学院编译原理课程的实验项目4 ExprEval。
+本仓库内为2022年春季学期中山大学编译原理课程的实验项目4 ExprEval。
 
 设计并实现一个实际可用的计算器ExpreVal。输入表达式支持布尔类型常量、数值类型常量（其中包括科学记数法）、各种算术运算、关系运算、逻辑运算、以及预定义函数等。
 
@@ -24,7 +24,7 @@
 
 ---
 
-In this warehouse is the experimental project 4 ExprEval of the Compiling principle course of School of Computer Science & Engineering, Sun Yat-Sen University in the spring semester of 2022.
+This is the experimental project 4 ExprEval for the Compiling principle course Sun Yat-Sen University in the spring semester of 2022.
 
 Design and implement a practical working calculator ExpreVal. Input expressions support Boolean-type constants, numerical type constants (including scientific notation), various arithmetic operations, relational operations, logical operations, and predefined functions.
 
